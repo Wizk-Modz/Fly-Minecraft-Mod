@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "wizk-fly-mod",
+	"version": "${version}",
+	"name": "Wizk Fly Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/wizk-fly-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.wizkfly.WizkFlyMod"
+		],
+		"client": [
+			"com.wizkfly.client.WizkFlyModClient"
+		]
+	},
+	"mixins": [
+		"wizk-fly-mod.mixins.json",
+		{
+			"config": "wizk-fly-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
