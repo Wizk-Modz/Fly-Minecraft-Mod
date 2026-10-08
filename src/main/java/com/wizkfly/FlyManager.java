@@ -38,12 +38,12 @@ public final class FlyManager {
         if (isEnabled(player)) {
             flyEnabled.remove(player.getUUID());
             applyState(player);
-            player.sendSystemMessage(Component.translatable("wizk-fly-mod.message.fly.disabled"));
+            player.sendOverlayMessage(Component.translatable("wizk-fly-mod.message.fly.disabled"));
             return false;
         }
         flyEnabled.add(player.getUUID());
         applyState(player);
-        player.sendSystemMessage(Component.translatable("wizk-fly-mod.message.fly.enabled"));
+        player.sendOverlayMessage(Component.translatable("wizk-fly-mod.message.fly.enabled"));
         return true;
     }
 
