@@ -1,0 +1,9 @@
+{
+	"key.wizk-fly-mod.toggle_fly": "Bật/Tắt Bay",
+	"key.category.wizk-fly-mod.main": "Wizk Fly Mod",
+	"wizk-fly-mod.message.fly.enabled": "Đã bật bay",
+	"wizk-fly-mod.message.fly.disabled": "Đã tắt bay",
+	"wizk-fly-mod.message.fly.other": "Bay của %s: %s",
+	"wizk-fly-mod.error.no_permission": "Bạn không có quyền sử dụng lệnh này",
+	"wizk-fly-mod.error.player_only": "Lệnh này chỉ có thể dùng bởi người chơi"
+}
