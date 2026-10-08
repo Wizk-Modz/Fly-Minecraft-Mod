@@ -4,6 +4,7 @@ import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.exceptions.SimpleCommandExceptionType;
 
+import net.minecraft.ChatFormatting;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.commands.arguments.EntityArgument;
@@ -45,7 +46,8 @@ public final class FlyCommand {
     private static int toggleOther(CommandSourceStack source, ServerPlayer target) throws CommandSyntaxException {
         boolean enabled = FlyManager.get().toggle(target);
         Component status = Component.translatable(
-            enabled ? "wizk-fly-mod.message.fly.enabled" : "wizk-fly-mod.message.fly.disabled");
+            enabled ? "wizk-fly-mod.message.fly.enabled" : "wizk-fly-mod.message.fly.disabled")
+            .withStyle(enabled ? ChatFormatting.GREEN : ChatFormatting.RED);
         source.sendSuccess(() -> Component.translatable("wizk-fly-mod.message.fly.other", target.getDisplayName(), status), true);
         return 1;
     }

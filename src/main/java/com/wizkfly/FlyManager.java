@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 
+import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
@@ -38,12 +39,12 @@ public final class FlyManager {
         if (isEnabled(player)) {
             flyEnabled.remove(player.getUUID());
             applyState(player);
-            player.sendOverlayMessage(Component.translatable("wizk-fly-mod.message.fly.disabled"));
+            player.sendOverlayMessage(Component.translatable("wizk-fly-mod.message.fly.disabled").withStyle(ChatFormatting.RED));
             return false;
         }
         flyEnabled.add(player.getUUID());
         applyState(player);
-        player.sendOverlayMessage(Component.translatable("wizk-fly-mod.message.fly.enabled"));
+        player.sendOverlayMessage(Component.translatable("wizk-fly-mod.message.fly.enabled").withStyle(ChatFormatting.GREEN));
         return true;
     }
 
