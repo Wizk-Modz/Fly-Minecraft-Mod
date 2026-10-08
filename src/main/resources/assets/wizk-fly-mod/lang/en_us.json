@@ -1,0 +1,9 @@
+{
+	"key.wizk-fly-mod.toggle_fly": "Toggle Fly",
+	"key.category.wizk-fly-mod.main": "Wizk Fly Mod",
+	"wizk-fly-mod.message.fly.enabled": "Fly enabled",
+	"wizk-fly-mod.message.fly.disabled": "Fly disabled",
+	"wizk-fly-mod.message.fly.other": "Fly for %s: %s",
+	"wizk-fly-mod.error.no_permission": "You do not have permission to use this command",
+	"wizk-fly-mod.error.player_only": "This command can only be used by a player"
+}
