@@ -25,7 +25,7 @@ public class WizkFlyModClient implements ClientModInitializer {
 		FlyConfig config = FlyConfig.load();
 		toggleFlyKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
 			"key.wizk-fly-mod.toggle_fly",
-			InputConstants.Type.KEYSYM,
+			InputConstants.Type.KEYBOARD,
 			resolveKeyCode(config.toggleFlyKey()),
 			CATEGORY));
 		ClientTickEvents.END_CLIENT_TICK.register(this::onEndTick);
