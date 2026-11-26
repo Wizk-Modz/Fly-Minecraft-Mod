@@ -1,6 +1,6 @@
 # Wizk Fly Mod
 
-A lightweight Fabric mod for Minecraft 26.2 that adds per-player flight with
+A lightweight Fabric mod for Minecraft 26.3 that adds per-player flight with
 commands, a configurable keybind and a simple config file.
 
 ## Features
@@ -14,14 +14,14 @@ commands, a configurable keybind and a simple config file.
 
 ## Requirements
 
-- Minecraft 26.2
+- Minecraft 26.3
 - Fabric Loader 0.19.5 or newer
-- Fabric API 0.161.0+26.2
+- Fabric API 0.167.0+26.3
 - Java 25
 
 ## Installation
 
-1. Install Fabric Loader for Minecraft 26.2.
+1. Install Fabric Loader for Minecraft 26.3.
 2. Put `fabric-api` and `wizk-fly-mod-<version>.jar` into your `mods` folder.
 
 ## Commands
