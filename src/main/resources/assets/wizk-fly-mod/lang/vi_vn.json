@@ -1,9 +1,18 @@
 {
 	"key.wizk-fly-mod.toggle_fly": "Bật/Tắt Bay",
 	"key.category.wizk-fly-mod.main": "Wizk Fly Mod",
-	"wizk-fly-mod.message.fly.enabled": "Đã bật bay",
-	"wizk-fly-mod.message.fly.disabled": "Đã tắt bay",
-	"wizk-fly-mod.message.fly.other": "Bay của %s: %s",
-	"wizk-fly-mod.error.no_permission": "Bạn không có quyền sử dụng lệnh này",
-	"wizk-fly-mod.error.player_only": "Lệnh này chỉ có thể dùng bởi người chơi"
+	"wizk-fly-mod.message.fly.enabled": "✔ Đã bật chế độ bay",
+	"wizk-fly-mod.message.fly.disabled": "✖ Đã tắt chế độ bay",
+	"wizk-fly-mod.message.fly.safe_fall": "🛡 Đã tiếp đất an toàn",
+	"wizk-fly-mod.message.fly.speed.self": "⚡ Tốc độ bay của bạn đã đặt thành: %s",
+	"wizk-fly-mod.message.fly.speed.other": "⚡ Tốc độ bay của %s đã đặt thành: %s",
+	"wizk-fly-mod.message.fly.other.enabled": "[Fly] Đã bật chế độ bay cho %s",
+	"wizk-fly-mod.message.fly.other.disabled": "[Fly] Đã tắt chế độ bay của %s",
+	"wizk-fly-mod.message.fly.by_admin.enabled": "[Fly] Quản trị viên %s đã bật chế độ bay cho bạn",
+	"wizk-fly-mod.message.fly.by_admin.disabled": "[Fly] Quản trị viên %s đã tắt chế độ bay của bạn",
+	"wizk-fly-mod.message.config.reloaded": "[Fly] Cấu hình đã được tải lại thành công",
+	"wizk-fly-mod.error.no_permission": "Bạn không có quyền sử dụng chức năng này",
+	"wizk-fly-mod.error.player_only": "Lệnh này chỉ có thể dùng bởi người chơi",
+	"wizk-fly-mod.error.invalid_speed": "Tốc độ bay không hợp lệ (hợp lệ từ 0.01 đến 0.5)",
+	"wizk-fly-mod.error.creative_mode": "Bạn đang ở chế độ Sáng tạo hoặc Khán giả"
 }

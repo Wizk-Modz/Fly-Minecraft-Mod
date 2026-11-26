@@ -1,9 +1,18 @@
 {
 	"key.wizk-fly-mod.toggle_fly": "Toggle Fly",
 	"key.category.wizk-fly-mod.main": "Wizk Fly Mod",
-	"wizk-fly-mod.message.fly.enabled": "Fly enabled",
-	"wizk-fly-mod.message.fly.disabled": "Fly disabled",
-	"wizk-fly-mod.message.fly.other": "Fly for %s: %s",
-	"wizk-fly-mod.error.no_permission": "You do not have permission to use this command",
-	"wizk-fly-mod.error.player_only": "This command can only be used by a player"
+	"wizk-fly-mod.message.fly.enabled": "✔ Flight enabled",
+	"wizk-fly-mod.message.fly.disabled": "✖ Flight disabled",
+	"wizk-fly-mod.message.fly.safe_fall": "🛡 Safely landed",
+	"wizk-fly-mod.message.fly.speed.self": "⚡ Your flight speed set to: %s",
+	"wizk-fly-mod.message.fly.speed.other": "⚡ Flight speed for %s set to: %s",
+	"wizk-fly-mod.message.fly.other.enabled": "[Fly] Flight enabled for %s",
+	"wizk-fly-mod.message.fly.other.disabled": "[Fly] Flight disabled for %s",
+	"wizk-fly-mod.message.fly.by_admin.enabled": "[Fly] Administrator %s enabled flight for you",
+	"wizk-fly-mod.message.fly.by_admin.disabled": "[Fly] Administrator %s disabled your flight",
+	"wizk-fly-mod.message.config.reloaded": "[Fly] Configuration reloaded successfully",
+	"wizk-fly-mod.error.no_permission": "You do not have permission to use this function",
+	"wizk-fly-mod.error.player_only": "This command can only be used by a player",
+	"wizk-fly-mod.error.invalid_speed": "Invalid flight speed (valid from 0.01 to 0.5)",
+	"wizk-fly-mod.error.creative_mode": "You are currently in Creative or Spectator mode"
 }
